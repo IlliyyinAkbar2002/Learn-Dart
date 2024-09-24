@@ -19,3 +19,17 @@ Dart is a client-optimized programming language for fast apps on any platform. I
 3. **Running Dart Code**: Use the Dart SDK to run your Dart programs with the command `dart run <filename>.dart`.
 
 For more detailed information, refer to the [Dart documentation](https://dart.dev/guides).
+
+---
+
+## Change Description
+
+**Update:** Added a new section on **Functions and Lambdas** to enhance the course material. This section covers:
+
+- **Defining Functions**: Learn how to create and use named functions in Dart.
+- **Anonymous Functions (Lambdas)**: Understand how to use anonymous functions for callbacks and short operations.
+- **Arrow Functions**: Explore the shorthand syntax for writing concise functions.
+- **Higher-Order Functions**: Discover how to use functions that take other functions as parameters or return functions.
+- **Closures**: Gain insight into how functions can capture and use variables from their surrounding scope.
+
+These additions aim to provide a deeper understanding of functional programming in Dart, enabling you to write more efficient and expressive code.
