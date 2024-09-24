@@ -50,9 +50,25 @@ class VariableDart {
     dynamic dynamicvalue;
     num numvalue;
 
+    // String
+    stringvalue = "John";
+
+    // Integer
+    intergervalue = 50;
+
+    // Double
+    doublevalue = 50.5;
+
+    // Boolean
+    booleanvalue = true;
+
     // Dynamic
     dynamicvalue = "John";
     dynamicvalue = 50;
+
+    // Num
+    numvalue = 50;
+    numvalue = 50.5;
 
     print(stringvalue);
     print(intergervalue);

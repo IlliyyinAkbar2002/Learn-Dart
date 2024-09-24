@@ -1,4 +1,5 @@
-import 'basic-dart.dart';
+// import 'basic-dart.dart';
+import 'collection-nullsafety.dart';
 
 class HelloWorld {
   void printHelloWorld() {
@@ -13,7 +14,15 @@ class Math {
 }
 
 void main() {
-  BasicDart basicDart = BasicDart();
-  basicDart.playingDart();
-  basicDart.variableDart();
+  // BasicDart basicDart = BasicDart();
+  // basicDart.playingDart();
+  // basicDart.variableDart();
+
+  CollectionNullSafety collectionNullSafety = CollectionNullSafety();
+  collectionNullSafety.printList();
+  collectionNullSafety.addList();
+  collectionNullSafety.printList();
+
+  CollectionNullSafety2 collectionNullSafety2 = CollectionNullSafety2();
+  collectionNullSafety2.printMap();
 }
