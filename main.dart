@@ -28,7 +28,8 @@ void main() {
   // collectionNullSafety2.printMap();
 
   ControlFlow controlFlow = ControlFlow();
-  controlFlow.ifStatement();
-  controlFlow.switchStatement();
-  controlFlow.forLoop();
+  // controlFlow.ifStatement();
+  // controlFlow.switchStatement();
+  // controlFlow.forLoop();
+  controlFlow.operatorAssignment();
 }

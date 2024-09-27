@@ -34,4 +34,16 @@ class ControlFlow {
     }
     print(message);
   }
+
+  void operatorAssignment() {
+    // The ??= operator assigns a value to a variable only if that variable is currently null.
+    String? name;
+    name ??= 'John Doe';
+    print(name); // Output: John Doe
+
+    // The ?? operator returns its left operand if it is not null; otherwise, it returns its right operand.
+    String? name2;
+    String name3 = name2 ?? 'John Doe';
+    print(name3); // Output: John Doe
+  }
 }
